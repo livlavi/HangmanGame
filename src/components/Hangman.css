@@ -1,0 +1,112 @@
+/* Style the overall HAngman game container */
+
+.Hangman {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ /* center the game container both vertically and horizontally */
+}
+
+/* Style for the game box */
+.box {
+  background-color: #f2f2f2;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  /* add some padding and margin for spacing */
+}
+
+/* style for the h1 heading */
+.Hangman h1 {
+  margin-bottom: 1rem;
+  color: #17a2b8;
+  /* add a margin and colour to the heading */
+}
+
+/* Style for the guessed letters */
+.guesses{
+  color:rgb(21, 108, 108);
+  font-weight: 600 ;
+  font-family:cursive;
+  /* add colour, font-weight and font family to the guessed letter */
+}
+
+/* Style for the paragraph */
+.paragraph{
+  color:#08879a;
+  /* change the colour of the paragraph */
+}
+
+/* style the hangman images */
+.Hangman img {
+  margin-bottom: 0;
+  width: 100px;
+  /* remove the margin and set the width of the image */
+}
+
+/* style for the game letter buttons */
+.Hangman button {
+  font-size: 0.8rem;
+  padding: 0.5rem 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color:rgb(162, 238, 238);
+  border-radius: 0.8rem;
+  cursor: pointer;
+  font-weight: 700;
+  /* add font size, padding, margin, border, colour */
+}
+
+/* style for the larger game button */
+.Hangman .btn-lg {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+}
+
+/* Style for the container to center the game buttons */
+.center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: large;
+  font-weight: 500;
+  margin-bottom: 0;
+  /* center, set font size and font weight */
+}
+
+/* style  buttons */
+.center .btn-info{
+  margin-left: 45%;
+}
+
+/* style the winning message */
+.winning-message{
+  color: green;
+}
+
+/* style the losing message */
+.losing-message{
+  color: red;
+}
+
+/* style for the reset and help buttons */
+.Hangman .btn-info {
+  background-color: #17a2b8;
+  font-size: 2rem;
+  cursor: pointer;
+  
+}
+
+.Hangman .btn-info:active {
+  background-color: #158080;
+}
+
+
