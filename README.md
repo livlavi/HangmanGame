@@ -4,9 +4,13 @@ Hangman Game
 This is a simple implementation of the classic word guessing game, Hangman.
 
 How to Play
+
+
 The game randomly generates a word from a list of words and the player has to guess the word by suggesting letters. The player has a limited number of wrong guesses (which is configurable). For each wrong guess, a part of a stick figure is drawn. The game is lost if the complete stick figure is drawn before the player has guessed the word. If the player successfully guesses the word before the stick figure is completed, the player wins the game.
 
 Features
+
+
 The game is implemented using React.js
 The game has a configurable number of wrong guesses allowed
 The game keeps track of the wrong guesses and displays the correct number of wrong guesses
@@ -14,6 +18,8 @@ The game displays a different hangman stick figure for each wrong guess
 The game can be reset at any time
 The game displays a message indicating if the player has won or lost
 The game includes a help button to display the rules of the game
+
+
 
 ## Available Scripts
 
