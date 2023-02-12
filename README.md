@@ -1,4 +1,6 @@
 Hangman Game
+
+
 This is a simple implementation of the classic word guessing game, Hangman.
 
 How to Play
